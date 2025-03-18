@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child{
+    @apply text-red-300 border-none
+}
+
+li.ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child::after{
+    @apply border-none
+}
+
+ul.ant-menu-item:hover{
+    @apply border-none
+}
+
+li.ant-menu-item:hover{
+    @apply border-none
+}
